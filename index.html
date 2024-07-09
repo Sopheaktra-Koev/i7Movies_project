@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>សូមស្វាគមន៍មកាន់ I7Movies</title>
+    <!-- style's css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- cdnjs's css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="vender/swiper/swiper-bundle.min.css" />
+    <!-- plyr's css -->
+    <link rel="stylesheet" href="vender/plyr/plyr.css" />
+    <!-- aos'css -->
+    <link rel="stylesheet" href="vender/Aos-animate/aos.css">
+
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <div class="top-header">
+                <a href="index.html" class="logo" data-aos="fade-down" data-aos-duration="1000">
+                    <img src="images/logo.png" alt="I7Movies_logo">
+                </a>
+                <div class="right-logo">
+                    <div class="found-block">
+                        <form class="frm-search" action="">
+                            <input type="search" class="search-box" placeholder="ស្វែងរកឥឡូវ" name="search">
+                            <button type="submit" class="btn-search">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <ul class="user">
+                        <li>
+                            <a href="namepage/login.html">
+                                <i class="fa-solid fa-user login" style="color: #FFA300;"></i>&nbsp; LOGIN
+                            </a>
+                        </li>
+                        <li>
+                            <p style="color:#FFA300;">|</p>
+                        </li>
+                        <li>
+                            <a href="namepage/signup.html">SIGN UP</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- navigation bar -->
+    <div class="navigation-bar">
+        <div class="container">
+            <nav class="navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link hvr-underline-reveal active">
+                            <i class="fa-solid fa-house"></i> &nbsp;ទំព័រដើម
+                        </a>
+                    </li>
+                    <li class="nav-item drop-bar">
+                        <a href="#" class="nav-link hvr-underline-reveal">រឿងភាគ &nbsp;
+                            <i class="fa-solid fa-sort-down"></i>
+                        </a>
+                        <div class="dropdown1">
+                            <ul>
+                                <li><a href="namepage/khmer_drama.html">ភាគខ្មែរ</a></li>
+                                <li><a href="namepage/korea_drrama.html">ភាគកូរ៉េ</a></li>
+                                <li><a href="namepage/chines_drama.html">ភាគចិន</a></li>
+                                <li><a href="namepage/thai_drama.html">ភាគថៃ</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="namepage/comingsoon.html" class="nav-link hvr-underline-reveal">ឆាប់ៗនេះ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="namepage/ghost-page.html" class="nav-link hvr-underline-reveal">រឿងខ្មោច</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="namepage/europe.html" class="nav-link hvr-underline-reveal">អឹរ៉ុប</a>
+                    </li>
+                    <li class="nav-item drop-bar">
+                        <a href="#" class="nav-link hvr-underline-reveal">ប្រទេស &nbsp;
+                            <i class="fa-solid fa-sort-down"></i>
+                        </a>
+                        <div class="dropdown1">
+                            <ul>
+                                <li><a href="namepage/khmer.html">ខ្មែរ</a></li>
+                                <li><a href="namepage/korea.html">កូរ៉េ</a></li>
+                                <li><a href="namepage/chines.html">ចិន</a></li>
+                                <li><a href="namepage/thai.html">ថៃ</a></li>
+                                <li><a href="namepage/indonesia.html">ឥណ្ឌូនេស៊ុី</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="namepage/about-me.html" class="nav-link hvr-underline-reveal ">
+                            <i class="fa-solid fa-user"></i>&nbsp;អំពីខ្ញុំ
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="link-contact">
+                    <a href="#" title="Search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                    <a href="namepage/contact.html" title="contact us">
+                        <i class="fa-regular fa-address-card"></i>
+                    </a>
+                    <div class="notification">
+                        <i onclick="myFunction()" class="fa-solid fa-bell text-warning fs-5 dropbtn"></i>
+                        <div id="myDropdown" class="dropdown-content">
+                            <h1 class="notif-text">Notifications</h1>
+                            <div class="for-notif">
+                                <h1><i class="fa-regular fa-face-sad-tear"></i></h1>
+                                <h1>Not Found</h1><br><br><br>
+                                <p>You don't account yet, <br>
+                                    Please create one</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <section>
+        <div class="page1">
+            <div class="back-image">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/page1-img/Badland hunters banner.jpg" alt="">
+                            <div class="overlay"></div>
+                            <div class="control-title">
+                                <div class="w1200-just-end">
+                                    <div class="title-movie-slide" data-aos="zoom-in-up" data-aos-duration="1000">
+                                        <h3 class="coming">COMING SOON!</h3>
+                                        <div class="box-date">
+                                            <p>16 មេសា 2024</p>
+                                            <p> - </p>
+                                            <p>ម៉ោង 12:00 នាទី</p>                                        </div><br>
+                                        <h1 class="title-movie-poster">BADLAND HUNTERS</h1><br>
+                                        <p>
+                                            នៅពេលដែលការរញ្ជួយដីបានប្រែក្លាយទីក្រុងសេអ៊ូលទៅជាតំបន់អាក្រក់ដែលគ្មានច្បាប់អ្នកបរបាញ់ដែលមិន
+                                            <br>ខ្លាចញញើតនឹងបន្តជួយសង្គ្រោះក្មេងជំទង់ម្នាក់ពីវេជ្ជបណ្ឌិតឆ្កួតដែលចាប់ក្មេងជំទង់ជាឈ្លើយនៅក្នុងជំរុំដែល<br>
+                                            ពោរពេញដោយអ្នកគោរពសាសនាដ៏គ្រោះថ្នាក់។
+                                        </p>
+                                        <div class="infor-movie">
+                                            <p>កូរ៉េ</p>
+                                            <p class="border-infor">2024</p>
+                                            <p class="border2">15+</p>
+                                            <p>ប្រយុទ្ធ</p>
+                                        </div>
+                                        <div class="trailer-btn">
+                                            <a href="namepage/video.html">
+                                                មើល Trailer
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </a>
+                                            <a href="namepage/ghost-page.html">
+                                                មើសផ្សេងទៀត
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/page1-img/jumanji banner.jpg" alt="">
+                            <div class="overlay"></div>
+                            <div class="control-title">
+                                <div class="w1200-just-end">
+                                    <div class="title-movie-slide">
+                                        <h3 class="coming">COMING SOON!</h3>
+                                        <div class="box-date">
+                                            <p>16 មេសា 2024</p>
+                                            <p> - </p>
+                                            <p>ម៉ោង 12:00 នាទី</p>
+                                        </div><br>
+                                        <h1 class="title-movie-poster">JUMANJI</h1><br>
+                                        <p>
+                                            ក្មេងជំទង់បួននាក់ត្រូវបានជញ្ជក់ចូលទៅក្នុងវីដេអូហ្គេមវេទមន្ត
+                                            ហើយវិធីតែមួយគត់ដែលពួកគេអាចគេចបាន​<br>
+                                            គឺត្រូវធ្វើការជាមួយគ្នាដើម្បីបញ្ចប់ហ្គេម។ Four teenagers are sucked
+                                            into a
+                                            magical
+                                            video<br>
+                                            game,and the only way they can escape is to work together to finish
+                                            the game.
+                                        </p>
+                                        <div class="infor-movie">
+                                            <p>អាមេរិច</p>
+                                            <p class="border-infor">2017</p>
+                                            <p class="border2">15+</p>
+                                            <p>ប្រយុទ្ធ</p>
+                                        </div>
+                                        <div class="trailer-btn">
+                                            <a href="namepage/video.html">
+                                                មើល Trailer
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </a>
+                                            <a href="namepage/ghost-page.html">
+                                                មើសផ្សេងទៀត
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/page1-img/back-aquaman.jpeg" alt="">
+                            <div class="overlay"></div>
+                            <div class="control-title">
+                                <div class="w1200-just-end">
+                                    <div class="title-movie-slide">
+                                        <h3 class="coming">COMING SOON!</h3>
+                                        <div class="box-date">
+                                            <p>16 កុម្ភៈ 2024</p>
+                                            <p> - </p>
+                                            <p>ម៉ោង 12:00 នាទី</p>
+                                        </div><br>
+                                        <h1 class="title-movie-poster">Aquaman and the Lost Kingdom</h1><br>
+                                        <p>
+                                            Black Manta ស្វែងរកការសងសឹកលើ Aquaman
+                                            ចំពោះការស្លាប់របស់ឪពុកគាត់ដោយកាន់អំណាច
+                                            របស់<br>Black Trident គាត់ក្លាយជាសត្រូវដ៏គួរឱ្យខ្លាច។ ដើម្បីការពារ
+                                            Atlantis
+                                            Aquaman បង្កើតសម្ព័ន្ធ<br>
+                                            ភាពជាមួយបងប្រុសរបស់គាត់ដែលជាប់គុក ពួកគេត្រូវតែការពារនគរ។
+                                        </p>
+                                        <div class="infor-movie">
+                                            <p>អាមេរិច</p>
+                                            <p class="border-infor">2023</p>
+                                            <p class="border2">16+</p>
+                                            <p>វេទមន្ត</p>
+                                        </div>
+                                        <div class="trailer-btn">
+                                            <a href="namepage/video.html">
+                                                មើល Trailer
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </a>
+                                            <a href="namepage/ghost-page.html">
+                                                មើសផ្សេងទៀត
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/page1-img/back-hopeless.jpg" alt="">
+                            <div class="overlay"></div>
+                            <div class="control-title">
+                                <div class="w1200-just-end">
+                                    <div class="title-movie-slide">
+                                        <h3 class="coming">COMING SOON!</h3>
+                                        <div class="box-date">
+                                            <p>16 កុម្ភៈ 2024</p>
+                                            <p> - </p>
+                                            <p> ម៉ោង 12:00 នាទី</p>
+                                        </div><br>
+                                        <h1 class="title-movie-poster">គេចពីក្រុងនរក​ - HOPELESS</h1>
+                                        <p>
+                                            ការព្យាយាមដើរគេចចេញពីអតីតកាលដ៏អាក្រក់របស់បុរសម្នាក់ Yeon Gyu
+                                            និងបញ្ចប់ទៅវិញក្នុងពិភពឧក្រិដ្ឋកម្ម។
+                                            Dangerous people who make risky choices to escape from their hellish
+                                            <span>
+                                            </span>
+                                            <br>realities.
+                                        </p>
+                                        <div class="infor-movie">
+                                            <p>កូរ៉េ</p>
+                                            <p class="border-infor">2023</p>
+                                            <p class="border2">16+</p>
+                                            <p>ឧក្រិដ្ឋកម្ម</p>
+                                        </div>
+                                        <div class="trailer-btn">
+                                            <a href="namepage/video.html">
+                                                មើល Trailer
+                                                <i class="fa-regular fa-circle-play"></i>
+                                            </a>
+                                            <a href="namepage/ghost-page.html">
+                                                មើសផ្សេងទៀត
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <div class="poster-img">
+                <div class="w1200-just-start">
+                    <div class="in-poster-img">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" data-aos="zoom-in-up" data-aos-duration="1000">
+                                    <img src="images/page1-img/Badland hunters poster.jpg" alt="" class="movie-poster">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/page1-img/jumanji poster.jpg" alt="" class="movie-poster">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/page1-img/aquaman-poster1.jpg" alt="" class="movie-poster">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/page1-img/poster-hopeless.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main>
+        <section>
+            <div class="container">
+                <div class="topic-box">
+                    <div class="pointer-popular" data-aos="fade-up" data-aos-duration="1000">
+                        <h2>New Movies Releases</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- new release -->
+        <section>
+            <div class="container">
+                <div class="page-2">
+                    <div class="movie-release" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="video-release">
+                            <div class="youtube-link-vd" id="player1">
+                                <iframe width="580" height="320"
+                                    src="https://www.youtube.com/embed/9SA7FaKxZVI?si=CK2sZFFhCNGRkwwv"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="title-movies-release">
+                                <div class="title-release">
+                                    <h2>រឿង &nbsp;Fast and Furious : Hobbs and Shaw</h2>
+                                    <div class="sub-title-relese">
+                                        <p>អាមេរិច</p>
+                                        <p>វាយប្រហារ​បែបកប្លែង</p>
+                                        <p><i class="fa-regular fa-clock"></i> &nbsp;២ ម៉ោង ១៧ នាទី</p>
+                                    </div>
+                                </div>
+                                <div class="view-title-relese">
+                                    <p>500k</p>
+                                    <i class="fa-regular fa-heart type"></i>
+                                    <i class="fa-solid fa-comment"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-release">
+                            <div class="youtube-link-vd" id="player2">
+                                <iframe width="580" height="320"
+                                    src="https://www.youtube.com/embed/4nhN4d-0LU8?si=Rq7G1-zxyj9RsCz4"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="title-movies-release">
+                                <div class="title-release">
+                                    <h2>រឿង &nbsp;ហាមដាស់ខ្មោច - Forbidden Play</h2>
+                                    <div class="sub-title-relese">
+                                        <p>ជប៉ុន</p>
+                                        <p>រន្ទត់</p>
+                                        <p><i class="fa-regular fa-clock"></i> &nbsp;១ ម៉ោង ៥០ នាទី</p>
+                                    </div>
+                                </div>
+                                <div class="view-title-relese">
+                                    <p>100k</p>
+                                    <i class="fa-regular fa-heart type"></i>
+                                    <i class="fa-solid fa-comment"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie-release-after" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="release-after">
+                            <div class="release-after-img">
+                                <img src="images/new-release/love reset.png" alt="">
+                                <div class="release-after-img-blure">
+                                    <a href="namepage/video.html">
+                                        <i class="fa-regular fa-circle-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="title-movies-release">
+                                <div class="title-release">
+                                    <p>រឿង &nbsp;ប្រតិកម្មស្នេហ៌៣០ថ្ងៃ - LOVE RESET</p>
+                                    <div class="sub-title-relese">
+                                        <p>កូរ៉េ</p>
+                                        <p>កប្លែង</p>
+                                        <p><i class="fa-regular fa-clock"></i> &nbsp;១ ម៉ោង ៥០ នាទី</p>
+                                    </div>
+                                </div>
+                                <div class="view-title-relese">
+                                    <p>400k</p>
+                                    <i class="fa-regular fa-heart type"></i>
+                                    <i class="fa-solid fa-comment"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="release-after">
+                            <div class="release-after-img">
+                                <img src="images/new-release/KontungKhevHDF.jpg" alt="">
+                                <div class="release-after-img-blure">
+                                    <a href="namepage/video.html">
+                                        <i class="fa-regular fa-circle-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="title-movies-release">
+                                <div class="title-release">
+                                    <p>រឿង &nbsp;កន្ទោងខៀវ &nbsp;&nbsp;(និយាយខ្មែរ)</p>
+                                    <div class="sub-title-relese">
+                                        <p>ខ្មែរ</p>
+                                        <p>ខ្មោច</p>
+                                        <p><i class="fa-regular fa-clock"></i> &nbsp;១ ម៉ោង ៣០ នាទី</p>
+                                    </div>
+                                </div>
+                                <div class="view-title-relese">
+                                    <p>800k</p>
+                                    <i class="fa-regular fa-heart type"></i>
+                                    <i class="fa-solid fa-comment"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="release-after">
+                            <div class="release-after-img">
+                                <img src="images/new-release/endless jouney.jpg" alt="">
+                                <div class="release-after-img-blure">
+                                    <a href="namepage/video.html">
+                                        <i class="fa-regular fa-circle-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="title-movies-release">
+                                <div class="title-release">
+                                    <p>រឿង &nbsp;ENDLESS JOUNEY &nbsp;&nbsp;(និយាយខ្មែរ)</p>
+                                    <div class="sub-title-relese">
+                                        <p>ចិន</p>
+                                        <p>ឧក្រិដ្ឋកម្ម</p>
+                                        <p><i class="fa-regular fa-clock"></i> &nbsp;១ ម៉ោង 53 នាទី</p>
+                                    </div>
+                                </div>
+                                <div class="view-title-relese">
+                                    <p>200k</p>
+                                    <i class="fa-regular fa-heart type"></i>
+                                    <i class="fa-solid fa-comment"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="topic-box">
+                    <div class="pointer-popular" data-aos="fade-up" data-aos-duration="1000">
+                        <h3>ប្រជុំខ្សែភាពយន្តពេញនិយមល្បីៗ</h3>
+                    </div>
+                    <div class="see-all" data-aos="fade-up" data-aos-duration="1000">
+                        <a href="#collection-movies">មើលទាំងអស់ <i class="fa-solid fa-angle-down"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- collection movies -->
+        <section>
+            <div class="container">
+                <div class="popular-slide">
+                    <div class="swiper mySwiper mySwiper-popular" data-aos="zoom-in-up" data-aos-duration="1000">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/page3-img/popular/the dark mother.jpg" alt="">
+                                <div class="vip">
+                                    <p>VIP</p>
+                                </div>
+                                <div class="overlay-popular"></div>
+                                <div class="about-popular">
+                                    <h1>រឿង ម៉ែក្រឡាភ្លើង</h1>
+                                    <div class="sub-about-popular">
+                                        <p>ខ្មែរ</p>
+                                        <p>ខ្មោច</p>
+                                        <p><i class="fa-regular fa-clock"></i> &nbsp;១ ម៉ោង ៥០​ នាទី</p>
+                                    </div>
+                                    <div class="btn-popular-slide">
+                                        <a href="namepage/video.html" class="btn-popular">
+                                            មើលឥឡូវ
+                                            <i class="fa-regular fa-circle-play"></i>
+                                        </a>
+                                        <a href="namepage/ghost-page.html" class="btn-popular">
+                                            មើលផ្សេងទៀត
+                                            <i class="fa-solid fa-circle-info"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/page3-img/popular/the childe2.jpg" alt="">
+                                <div class="vip">
+                                    <p>VIP</p>
+                                </div>
+                                <div class="overlay-popular"></div>
+                                <div class="about-popular">
+                                    <h1>រឿង THE CHILDE </h1>
+                                    <div class="sub-about-popular">
+                                        <p>កូរ៉េ</p>
+                                        <p>ឧក្រិដ្ឋកម្ម</p>
+                                        <p><i class="fa-regular fa-clock"></i> &nbsp;​១​ ម៉ោង ៤០ នាទី</p>
+                                    </div>
+                                    <div class="btn-popular-slide">
+                                        <a href="namepage/video.html" class="btn-popular">
+                                            មើលឥឡូវ
+                                            <i class="fa-regular fa-circle-play"></i>
+                                        </a>
+                                        <a href="namepage/ghost-page.html" class="btn-popular">
+                                            មើលផ្សេងទៀត
+                                            <i class="fa-solid fa-circle-info"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/page3-img/popular/hidden strike.jpg" alt="">
+                                <div class="vip">
+                                    <p>VIP</p>
+                                </div>
+                                <div class="overlay-popular"></div>
+                                <div class="about-popular">
+                                    <h1>រឿង HIDDEN STRIKE</h1>
+                                    <div class="sub-about-popular">
+                                        <p>ហូលីវូត</p>
+                                        <p>វាយប្រហារ​</p>
+                                        <p><i class="fa-regular fa-clock"></i> &nbsp;១ ម៉ោង ៣០​ នាទី</p>
+                                    </div>
+                                    <div class="btn-popular-slide">
+                                        <a href="namepage/video.html" class="btn-popular">
+                                            មើលឥឡូវ
+                                            <i class="fa-regular fa-circle-play"></i>
+                                        </a>
+                                        <a href="namepage/ghost-page.html" class="btn-popular">
+                                            មើលផ្សេងទៀត
+                                            <i class="fa-solid fa-circle-info"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="page3" id="collection-movies">
+                    <hr color="#FFA300">
+                    <br><br><br>
+                    <div class="collection" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="collection-movie">
+                            <img src="images/page3-img/mixed/kon krok.jpg" alt="">
+                            <div class="bg-blure-coll"></div>
+                            <div class="coll-title">
+                                <h3>រឿង កូនក្រក</h3>
+                                <div class="condition">
+                                    <p>២០១៧</p>
+                                    <p>ខ្មែរ</p>
+                                    <p>រន្ទត់</p>
+                                </div>
+                            </div>
+                            <div class="coll-play">
+                                <a href="namepage/video.html" class="back-btn">មើលឥឡូវ <i
+                                        class="fa-regular fa-circle-play"></i></a>
+                                <a href="namepage/ghost-page.html" class="back-more"><i class="fa-solid fa-circle-info"></i></a>
+                            </div>
+                        </div>
+                        <div class="collection-movie">
+                            <img src="images/page3-img/mixed/the jar 3.png" alt="">
+                            <div class="bg-blure-coll"></div>
+                            <div class="coll-title">
+                                <h3>រឿង ក្រឡអីហ្នឹង ៣</h3>
+                                <div class="condition">
+                                    <p>២០១៨</p>
+                                    <p>ខ្មែរ</p>
+                                    <p>ខ្មោច , រន្ទត់ </p>
+                                </div>
+                            </div>
+                            <div class="coll-play">
+                                <a href="namepage/video.html" class="back-btn">មើលឥឡូវ <i
+                                        class="fa-regular fa-circle-play"></i></a>
+                                <a href="namepage/ghost-page.html" class="back-more"><i class="fa-solid fa-circle-info"></i></a>
+                            </div>
+                        </div>
+                        <div class="collection-movie">
+                            <img src="images/page3-img/mixed/chane love again.png" alt="">
+                            <div class="bg-blure-coll"></div>
+                            <div class="coll-title">
+                                <h3>រឿង ឪកាសស្នេហ៌គេដូចមុន</h3>
+                                <div class="condition">
+                                    <p>២០១០</p>
+                                    <p>ខ្មែរ</p>
+                                    <p>ស្នេហា</p>
+                                </div>
+                            </div>
+                            <div class="coll-play">
+                                <a href="namepage/video.html" class="back-btn">មើលឥឡូវ <i
+                                        class="fa-regular fa-circle-play"></i></a>
+                                <a href="namepage/ghost-page.html" class="back-more"><i class="fa-solid fa-circle-info"></i></a>
+                            </div>
+                        </div>
+                        <div class="collection-movie">
+                            <img src="images/page3-img/mixed/bong kol krak.png" alt="">
+                            <div class="bg-blure-coll"></div>
+                            <div class="coll-title">
+                                <h3>រឿង បង្កោលក្រាក់ ២</h3>
+                                <div class="condition">
+                                    <p>២០២០</p>
+                                    <p>ខ្មែរ</p>
+                                    <p>ខ្មោច , រន្ទត់ </p>
+                                </div>
+                            </div>
+                            <div class="coll-play">
+                                <a href="namepage/video.html" class="back-btn">មើលឥឡូវ <i
+                                        class="fa-regular fa-circle-play"></i></a>
+                                <a href="namepage/ghost-page.html" class="back-more"><i class="fa-solid fa-circle-info"></i></a>
+                            </div>
+                        </div>
+                        <div class="collection-movie">
+                            <img src="images/page3-img/mixed/crush pu.png" alt="">
+                            <div class="bg-blure-coll"></div>
+                            <div class="coll-title">
+                                <h3>រឿង លង់ស្នេហ៌ពូ</h3>
+                                <div class="condition">
+                                    <p>២០២៣</p>
+                                    <p>ខ្មែរ</p>
+                                    <p>ស្នេហា</p>
+                                </div>
+                            </div>
+                            <div class="coll-play">
+                                <a href="namepage/video.html" class="back-btn">មើលឥឡូវ <i
+                                        class="fa-regular fa-circle-play"></i></a>
+                                <a href="namepage/ghost-page.html" class="back-more"><i class="fa-solid fa-circle-info"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collection" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="collection-movie">
+                            <img src="images/page3-img/mixed/my name is loh kiwan - k.jpg.png" alt="">
+                            <div class="bg-blure-coll"></div>
+                            <div class="coll-title">
+                                <h2>My Name's Loh Kiwan</h2>
+                                <div class="condition">
+                                    <p>២០២៤</p>
+                                    <p>កូរ៉េ</p>
+                                    <p>ភាគ</p>
+                                </div>
+                            </div>
+                            <div class="coll-play">
+                                <a href="namepage/video.html" class="back-btn">មើលឥឡូវ <i
+                                        class="fa-regular fa-circle-play"></i></a>
+                                <a href="namepage/ghost-page.html" class="back-more"><i class="fa-solid fa-circle-info"></i></a>
+                            </div>
+                        </div>
+                        <div class="collection-movie">
+                            <img src="images/page3-img/mixed/kingdom ashin of the north.jpg" alt="">
+                            <div class="bg-blure-coll"></div>
+                            <div class="coll-title">
+                                <h2>Kingdom Ashin North </h2>
+                                <div class="condition">
+                                    <p>២០១៩</p>
+                                    <p>កូរ៉េ</p>
+                                    <p>បុរាណ</p>
+                                </div>
+                            </div>
+                            <div class="coll-play">
+                                <a href="namepage/video.html" class="back-btn">មើលឥឡូវ <i
+                                        class="fa-regular fa-circle-play"></i></a>
+                                <a href="namepage/ghost-page.html" class="back-more"><i class="fa-solid fa-circle-info"></i></a>
+                            </div>
+                        </div>
+                        <div class="collection-movie">
+                            <img src="images/page3-img/mixed/all of as are dead.jpg" alt="">
+                            <div class="bg-blure-coll"></div>
+                            <div class="coll-title">
+                                <h2>All of us are dead</h2>
+                                <div class="condition">
+                                    <p>២០២២</p>
+                                    <p>កូរ៉េ</p>
+                                    <p>Zombie</p>
+                                </div>
+                            </div>
+                            <div class="coll-play">
+                                <a href="namepage/video.html" class="back-btn">មើលឥឡូវ <i
+                                        class="fa-regular fa-circle-play"></i></a>
+                                <a href="namepage/ghost-page.html" class="back-more"><i class="fa-solid fa-circle-info"></i></a>
+                            </div>
+                        </div>
+                        <div class="collection-movie">
+                            <img src="images/page3-img/mixed/zombie for sale.jpg" alt="">
+                            <div class="bg-blure-coll"></div>
+                            <div class="coll-title">
+                                <h2>Zombie For Sale</h2>
+                                <div class="condition">
+                                    <p>២០២២</p>
+                                    <p>កូរ៉េ</p>
+                                    <p>Zombie</p>
+                                </div>
+                            </div>
+                            <div class="coll-play">
+                                <a href="namepage/video.html" class="back-btn">មើលឥឡូវ <i
+                                        class="fa-regular fa-circle-play"></i></a>
+                                <a href="namepage/ghost-page.html" class="back-more"><i class="fa-solid fa-circle-info"></i></a>
+                            </div>
+                        </div>
+                        <div class="collection-movie">
+                            <img src="images/page3-img/mixed/smugglers.jpg" alt="">
+                            <div class="bg-blure-coll"></div>
+                            <div class="coll-title">
+                                <h2>Smungglers</h2>
+                                <div class="condition">
+                                    <p>២០២៣</p>
+                                    <p>កូរ៉េ</p>
+                                    <p>ឧក្រិដ្ឋកម្ម​</p>
+                                </div>
+                            </div>
+                            <div class="coll-play">
+                                <a href="namepage/video.html" class="back-btn">មើលឥឡូវ <i
+                                        class="fa-regular fa-circle-play"></i></a>
+                                <a href="namepage/ghost-page.html" class="back-more"><i class="fa-solid fa-circle-info"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collection" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="collection-movie">
+                            <img src="images/page3-img/mixed/2023 sakra adventure.jpg" alt="">
+                            <div class="bg-blure-coll"></div>
+                            <div class="coll-title">
+                                <h2>Donie Yen Sakra</h2>
+                                <div class="condition">
+                                    <p>២០23</p>
+                                    <p>ចិន</p>
+                                    <p>ដំណើរផ្សងព្រេង</p>
+                                </div>
+                            </div>
+                            <div class="coll-play">
+                                <a href="namepage/video.html" class="back-btn">មើលឥឡូវ <i
+                                        class="fa-regular fa-circle-play"></i></a>
+                                <a href="namepage/ghost-page.html" class="back-more"><i class="fa-solid fa-circle-info"></i></a>
+                            </div>
+                        </div>
+                        <div class="collection-movie">
+                            <img src="images/page3-img/mixed/Ride on-ch.jpg" alt="">
+                            <div class="bg-blure-coll"></div>
+                            <div class="coll-title">
+                                <h2>Ride On</h2>
+                                <div class="condition">
+                                    <p>២០២៣</p>
+                                    <p>ចិន</p>
+                                    <p>កប្លែង</p>
+                                </div>
+                            </div>
+                            <div class="coll-play">
+                                <a href="namepage/video.html" class="back-btn">មើលឥឡូវ <i
+                                        class="fa-regular fa-circle-play"></i></a>
+                                <a href="namepage/ghost-page.html" class="back-more"><i class="fa-solid fa-circle-info"></i></a>
+                            </div>
+                        </div>
+                        <div class="collection-movie">
+                            <img src="images/page3-img/mixed/burn to fly.png" alt="">
+                            <div class="bg-blure-coll"></div>
+                            <div class="coll-title">
+                                <h2>Burn To Fly</h2>
+                                <div class="condition">
+                                    <p>២០២២</p>
+                                    <p>ចិន</p>
+                                    <p>សង្រ្គាម</p>
+                                </div>
+                            </div>
+                            <div class="coll-play">
+                                <a href="namepage/video.html" class="back-btn">មើលឥឡូវ <i
+                                        class="fa-regular fa-circle-play"></i></a>
+                                <a href="namepage/ghost-page.html" class="back-more"><i class="fa-solid fa-circle-info"></i></a>
+                            </div>
+                        </div>
+                        <div class="collection-movie">
+                            <img src="images/page3-img/mixed/my 18 2023.jpg" alt="">
+                            <div class="bg-blure-coll"></div>
+                            <div class="coll-title">
+                                <h2>Yesterday one more</h2>
+                                <div class="condition">
+                                    <p>២០២៣</p>
+                                    <p>ចិន</p>
+                                    <p>ភាគ</p>
+                                </div>
+                            </div>
+                            <div class="coll-play">
+                                <a href="namepage/video.html" class="back-btn">មើលឥឡូវ <i
+                                        class="fa-regular fa-circle-play"></i></a>
+                                <a href="namepage/ghost-page.html" class="back-more"><i class="fa-solid fa-circle-info"></i></a>
+                            </div>
+                        </div>
+                        <div class="collection-movie">
+                            <img src="images/page3-img/mixed/warriors of furture 2022.jpg" alt="">
+                            <div class="bg-blure-coll"></div>
+                            <div class="coll-title">
+                                <h2>Warriors Of Furture</h2>
+                                <div class="condition">
+                                    <p>២០២២</p>
+                                    <p>ចិន</p>
+                                    <p>វិទ្យាសាស្រ្ត</p>
+                                </div>
+                            </div>
+                            <div class="coll-play">
+                                <a href="namepage/video.html" class="back-btn">មើលឥឡូវ <i
+                                        class="fa-regular fa-circle-play"></i></a>
+                                <a href="namepage/ghost-page.html" class="back-more"><i class="fa-solid fa-circle-info"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collection" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="collection-movie">
+                            <img src="images/page3-img/mixed/ferrari 2023 thriller.jpg" alt="">
+                            <div class="bg-blure-coll"></div>
+                            <div class="coll-title">
+                                <h2>Ferrari</h2>
+                                <div class="condition">
+                                    <p>២០២៣</p>
+                                    <p>អីតាលី</p>
+                                    <p>ជីវប្រវត្តិ</p>
+                                </div>
+                            </div>
+                            <div class="coll-play">
+                                <a href="namepage/video.html" class="back-btn">មើលឥឡូវ <i
+                                        class="fa-regular fa-circle-play"></i></a>
+                                <a href="namepage/ghost-page.html" class="back-more"><i class="fa-solid fa-circle-info"></i></a>
+                            </div>
+                        </div>
+                        <div class="collection-movie">
+                            <img src="images/page3-img/mixed/Code_eight_part_II_2024.jpg" alt="">
+                            <div class="bg-blure-coll"></div>
+                            <div class="coll-title">
+                                <h2>Code 8 : Part II</h2>
+                                <div class="condition">
+                                    <p>២០២៤</p>
+                                    <p>អាមេរិច</p>
+                                    <p>ឧក្រិដ្ឋកម្ម​</p>
+                                </div>
+                            </div>
+                            <div class="coll-play">
+                                <a href="namepage/video.html" class="back-btn">មើលឥឡូវ <i
+                                        class="fa-regular fa-circle-play"></i></a>
+                                <a href="namepage/ghost-page.html" class="back-more"><i class="fa-solid fa-circle-info"></i></a>
+                            </div>
+                        </div>
+                        <div class="collection-movie">
+                            <img src="images/page3-img/mixed/john wick 4.jpg" alt="">
+                            <div class="bg-blure-coll"></div>
+                            <div class="coll-title">
+                                <h2>Jonh Wich 4</h2>
+                                <div class="condition">
+                                    <p>២០២៣</p>
+                                    <p>អាមេរិច</p>
+                                    <p>ឧក្រិដ្ឋកម្ម​</p>
+                                </div>
+                            </div>
+                            <div class="coll-play">
+                                <a href="namepage/video.html" class="back-btn">មើលឥឡូវ <i
+                                        class="fa-regular fa-circle-play"></i></a>
+                                <a href="namepage/ghost-page.html" class="back-more"><i class="fa-solid fa-circle-info"></i></a>
+                            </div>
+                        </div>
+                        <div class="collection-movie">
+                            <img src="images/page3-img/mixed/openheimer.jpg" alt="">
+                            <div class="bg-blure-coll"></div>
+                            <div class="coll-title">
+                                <h2>Openheimer</h2>
+                                <div class="condition">
+                                    <p>២០២៣</p>
+                                    <p>អាមេរិច</p>
+                                    <p>ប្រលោមលោក</p>
+                                </div>
+                            </div>
+                            <div class="coll-play">
+                                <a href="namepage/video.html" class="back-btn">មើលឥឡូវ <i
+                                        class="fa-regular fa-circle-play"></i></a>
+                                <a href="namepage/ghost-page.html" class="back-more"><i class="fa-solid fa-circle-info"></i></a>
+                            </div>
+                        </div>
+                        <div class="collection-movie">
+                            <img src="images/page3-img/mixed/pravendnik.jpg" alt="">
+                            <div class="bg-blure-coll"></div>
+                            <div class="coll-title">
+                                <h2>Pravendnik</h2>
+                                <div class="condition">
+                                    <p>២០២៣</p>
+                                    <p>រុស្ស៊ុី</p>
+                                    <p>សង្រ្គាម</p>
+                                </div>
+                            </div>
+                            <div class="coll-play">
+                                <a href="namepage/video.html" class="back-btn">មើលឥឡូវ <i
+                                        class="fa-regular fa-circle-play"></i></a>
+                                <a href="namepage/ghost-page.html" class="back-more"><i class="fa-solid fa-circle-info"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="topic-box">
+                    <div class="pointer-popular" data-aos="fade-up" data-aos-duration="1000">
+                        <h2>Movies Recommended</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="page4">
+                    <div class="movie-recoment">
+                        <div class="recoment">
+                            <div class="recoment1" data-aos="fade-up" data-aos-duration="1000">
+                                <hr color="#FFA300">
+                                <div class="rec-img">
+                                    <img src="images/recoment/train-to-busan1.jpg" alt="">
+                                </div>
+                                <hr color="#FFA300">
+                                <div class="rec-title">
+                                    <h3>រថភ្លើងទៅប៊ូសាន - TRAIN TO BUSAN</h3>
+                                    <div class="about-mv-rec">
+                                        <p>កូរ៉េ</p>
+                                        <p>2016</p>
+                                        <p>15+</p>
+                                        <p>Zombie</p>
+                                    </div>
+
+                                    <div class="rate-rec">
+                                        <p class="time-rec">
+                                            <i class="fa-regular fa-clock"></i> 1 hr 48 m
+                                        </p>
+                                    </div>
+                                    <div class="view1">
+                                        <p>500k views</p>
+                                        <i class="fa-regular fa-heart type"></i>
+                                        <i class="fa-solid fa-comment"></i>
+                                    </div>
+                                    <div class="rec-btn">
+                                        <a href="namepage/video.html">
+                                            មើ់លឥឡូវ​ <i class="fa-regular fa-circle-play"></i>
+                                        </a>
+                                        <a href="namepage/ghost-page.html">
+                                            មើសផ្សេងទៀត <i class="fa-solid fa-circle-info"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recoment2" data-aos="fade-up" data-aos-duration="1200">
+                                <hr color="#FFA300">
+                                <div class="rec-img">
+                                    <img src="images/recoment/beekeeper.jpg" alt="">
+                                </div>
+                                <hr color="#FFA300">
+                                <div class="rec-title">
+                                    <h3>BEEKEEPER</h3>
+                                    <div class="about-mv-rec">
+                                        <p>អាមេរិច</p>
+                                        <p>2024</p>
+                                        <p>18+</p>
+                                        <p>រន្ទត់</p>
+                                    </div>
+
+                                    <div class="rate-rec">
+                                        <p class="time-rec">
+                                            <i class="fa-regular fa-clock"></i> 1 hr 45 m
+                                        </p>
+                                    </div>
+                                    <div class="view1">
+                                        <p>600k views</p>
+                                        <i class="fa-regular fa-heart type"></i>
+                                        <i class="fa-solid fa-comment"></i>
+                                    </div>
+                                    <div class="rec-btn">
+                                        <a href="namepage/video.html">
+                                            មើ់លឥឡូវ​ <i class="fa-regular fa-circle-play"></i>
+                                        </a>
+                                        <a href="namepage/ghost-page.html">
+                                            មើសផ្សេងទៀត <i class="fa-solid fa-circle-info"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recoment">
+                            <div class="recoment1" data-aos="fade-up" data-aos-duration="1000">
+                                <hr color="#FFA300">
+                                <div class="rec-img">
+                                    <img src="images/recoment/the nun.jpg" alt="">
+                                </div>
+                                <hr color="#FFA300">
+                                <div class="rec-title">
+                                    <h3>THE NUN 2</h3>
+                                    <div class="about-mv-rec">
+                                        <p>អាមេរិច</p>
+                                        <p>2023</p>
+                                        <p>15+</p>
+                                        <p>ខ្មោច​</p>
+                                    </div>
+
+                                    <div class="rate-rec">
+                                        <p class="time-rec">
+                                            <i class="fa-regular fa-clock"></i> 1 hr 50 m
+                                        </p>
+                                    </div>
+                                    <div class="view1">
+                                        <p>500k views</p>
+                                        <i class="fa-regular fa-heart type"></i>
+                                        <i class="fa-solid fa-comment"></i>
+                                    </div>
+                                    <div class="rec-btn">
+                                        <a href="namepage/video.html">
+                                            មើ់លឥឡូវ​ <i class="fa-regular fa-circle-play"></i>
+                                        </a>
+                                        <a href="namepage/ghost-page.html">
+                                            មើសផ្សេងទៀត <i class="fa-solid fa-circle-info"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recoment2" data-aos="fade-up" data-aos-duration="1200">
+                                <hr color="#FFA300">
+                                <div class="rec-img">
+                                    <img src="images/recoment/born to fly.jpg" alt="">
+                                </div>
+                                <hr color="#FFA300">
+                                <div class="rec-title">
+                                    <h3>BORN TO FLY</h3>
+                                    <div class="about-mv-rec">
+                                        <p>ចិន</p>
+                                        <p>2023</p>
+                                        <p>14+</p>
+                                        <p>យោធា</p>
+                                    </div>
+
+                                    <div class="rate-rec">
+                                        <p class="time-rec">
+                                            <i class="fa-regular fa-clock"></i> 2 hr 8 m
+                                        </p>
+                                    </div>
+                                    <div class="view1">
+                                        <p>600k views</p>
+                                        <i class="fa-regular fa-heart type"></i>
+                                        <i class="fa-solid fa-comment"></i>
+                                    </div>
+                                    <div class="rec-btn">
+                                        <a href="namepage/video.html">
+                                            មើ់លឥឡូវ​ <i class="fa-regular fa-circle-play"></i>
+                                        </a>
+                                        <a href="namepage/ghost-page.html">
+                                            មើសផ្សេងទៀត <i class="fa-solid fa-circle-info"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="end-page">
+        <div class="container">
+            <div class="control-end-page" data-aos="fade-up" data-aos-duration="1000">
+                <div class="logo-end">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                    <p>
+                        <span class="logo-text">I7Movies</span> ជាគេហទំព័រដែលផ្ដល់ជូននូវខ្សែភាពយន្ត
+                        ពេញនិយមជាច្រើន សម្រាប់ទស្សនា២៤ម៉ោងដោយឥតគិតថ្លៃ។ 
+                    </p>
+                    <div class="subscribe">
+                        <p>ចុច <span class="logo-text">Subscribe</span> ប៊ូតុងសម្រាប់ទទួលរឿងថ្មីៗពី &nbsp;<span
+                                class="logo-text">I7Movies</span></p>
+                    </div>
+                    <div class="icon-sub">
+                        <i class="fa-brands fa-youtube"></i>YouTube
+                        <i class="fa-brands fa-facebook"></i>Facebook Page
+                        <i class="fa-brands fa-square-instagram"></i> Instagram
+                    </div>
+                    <br>
+                    <button type="button" class="btn-sub">Subscribe</button>
+                </div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000">
+                    <h2>More</h2>
+                    <br><br>
+                    <div class="link-movie">
+                        <li><a href="namepage/about-me.html">អំពីយើង</a></li>
+                        <li><a href="namepage/contact.html">ទំនាក់ទំនង</a></li>
+                        <li><a href="namepage/khmer_drama.html">រឿងភាគល្បីៗ</a></li>
+                        <li><a href="namepage/ghost-page.html">រឿងខ្មោច</a></li>
+                        <li><a href="namepage/comingsoon.html">ឆាប់ៗនេះ</a></li>
+                        <li><a href="namepage/europe.html">រឿងអ៊ឺរ៉ុបល្បីៗ</a></li>
+
+                    </div>
+                </div>
+                <div class="contact" data-aos="fade-up" data-aos-duration="1000">
+                    <h2>Follwing Our Social Medai</h2><br><br>
+                    <div class="icon-sub1">
+                        <p>
+                            <i class="fa-brands fa-youtube"></i> &nbsp;You Tube
+                        </p>
+                        <p>
+                            <i class="fa-brands fa-facebook"></i> &nbsp;Facebook
+                        </p>
+                        <p>
+                            <i class="fa-brands fa-square-instagram"></i> &nbsp;Instagram
+                        </p>
+                        <p>
+                            <i class="fa-brands fa-tiktok"></i> &nbsp;Tik Tok
+                        </p>
+                        <p>
+                            <i class="fa-brands fa-telegram"></i> &nbsp;Telegram
+                        </p>
+                    </div>
+                    <div class="download">
+                        <button type="button" class="btn-download">
+                            <img src="images/download/play-store.png" alt="">
+                        </button>
+                        <button type="button" class="btn-download">
+                            <img src="images/download/app-store.png" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="svg-img">
+            <img src="images/wave (1).svg" alt="">
+            <div class="creater">
+                <span class="be"><i class="fa-regular fa-copyright"></i> រក្សាសិទ្ធិគ្រប់យ៉ាងដោយ I7Movies || BY :
+                    SOPHEAKTRA KOEV</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="vender/swiper/swiper-bundle.min.js"></script>
+    <!-- page3 slide's script -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            spaceBetween: 0,
+            centeredSlides: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    <!-- plyr.js -->
+    <script src="vender/plyr/plyr.js"></script>
+    <script>
+        const player1 = new Plyr('#player1');
+        const player2 = new Plyr('#player2');
+    </script>
+
+    <!-- script's aos -->
+    <script src="vender/Aos-animate/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- script manual -->
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,178 @@
+.bg-user-form{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../images/back-form1.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.w1000{
+    width: 500px;
+    border-radius: 10px;
+    background-color:#000000cb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-form{
+    display: flex;
+    padding: 10px 30px;
+    margin: auto;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.logo-form > a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+.form-img-logo{
+    width: 100px;
+
+}
+
+.form-img-logo > img{
+    width: 100%;
+    height: 100%;
+}
+
+.bg-form{
+    width: 850px;
+    border-radius: 10px;
+}
+
+.bg-form-login{
+    width: 700px!important;
+}
+
+.form-signup{
+    padding: 30px;
+}
+
+label{
+    color: #fff;
+    font-size: 18px;
+}
+
+label i{
+    color:#FFA300;
+}
+
+.user-name{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+
+.mb-3 .form-control{
+    width: 200px;
+    background-color: transparent;
+    border: none;
+    padding: 12px 0;
+    border-bottom: 1px solid #FFA300;
+    color: #fff;
+    font-size: 15px;
+}
+
+.form-control:focus{
+    outline:none;
+    border-bottom: 1px solid #fff;
+}
+
+.mb{
+    margin-bottom: 1.5rem;
+}
+
+.mb .form-control{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    padding: 12px 0;
+    border-bottom: 1px solid #FFA300;
+    color: #fff;
+    font-size: 15px;
+}
+
+.mb .form-control:focus{
+    border-bottom: 1px solid #fff;
+}
+
+.button-form{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    align-items:center;
+}
+
+.button-form .btn-signup{
+    padding: 8px 20px;
+    width: 200px;
+    background-color: #FFA300;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    font-weight:500;
+    cursor: pointer;
+}
+
+.btn-return{
+    text-decoration: none;
+    font-size:14px;
+    background-color:#FFA300;
+    color: #fff;
+    width: 200px;
+    text-align:center;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+
+.btn-signup:hover,.btn-return:hover{
+  background-color:#ff4500;
+  transform: scale(1.05);
+}
+
+.to-member{
+    color:skyblue;
+}
+
+.conect-to{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: #fff;
+}
+
+.conect-to > span i{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #FFA300;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.conect-to > span i:hover{
+    transform: scale(1.1);
+}
+
+.yellow{
+    color: #fff;
+}
+
+.orangered{
+    color: #FFA300;
+}

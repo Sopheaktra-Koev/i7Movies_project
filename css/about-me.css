@@ -1,0 +1,249 @@
+
+
+.hero{
+    width:100%;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.control{
+    width:1200px;
+    display: flex;
+    gap: 150px;
+    align-items: end;
+}
+
+.about-me{
+    width:380px;
+    height: 220px;
+    box-shadow: 0 0 10px #000;
+    border-radius: 50%;
+    background-image: url('../images/about-page/background-img-about-me.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.about-me:hover .text-about-me{
+    transform: scale(1.05);
+}
+
+.text-about-me{
+    position: absolute;
+    width: 380px;
+    height: 220px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-about-me > h1{
+    font-size: 3.5em;
+    color: #293219;
+    text-shadow: 2px 2px #000;
+}
+
+
+.circle1{
+    position:absolute;
+    width: 150px;
+    height: 80px;
+    border-radius: 50%;
+    top:-70px;
+    right: -80px;
+    background-image: url('../images/about-page/background-img-about-me.png');
+    background-size: cover;
+    background-position: center;
+}
+.circle2{
+    position:absolute;
+    width: 100px;
+    height: 50px;
+    border-radius: 50%;
+    top:-130px;
+    right: -130px;
+    background-image: url('../images/about-page/background-img-about-me.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.descripe{
+    width: 650px;
+    height: 350px;
+    box-shadow: 0 0 10px #000;
+    background-image: url('../images/about-page/descripe-bg.png');
+    background-size: cover;
+    background-position: center;
+    padding:20px;
+    border-radius: 10px;
+    position: relative;
+    z-index:20;
+}
+
+.text-des > p{
+    font-size: 21.5px;
+    text-shadow: 0 0.5px #000;
+    color:#293219;
+}
+
+.oval-shape-bottom{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color:#bdd6a854;
+    box-shadow: 0 0 10px #00000079;
+    border-radius: 50%;
+    z-index:-1;
+    top:230px;
+}
+
+.oval-shape-right{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color:#bdd6a86b;
+    box-shadow: 0 0 10px #00000079;
+    border-radius: 50%;
+    z-index:-1;
+    right:200px;
+}
+
+.yellow{
+    color:#ff4500;
+}
+
+.row{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.col-4{
+    width: 200px;
+    height:50px;
+    padding: 0 15px;
+    gap: 15px;
+    border-radius: 20px;
+    background-image: url('../images/about-page/background-img-about-me.png');
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    align-items: center;
+}
+
+.col-4:hover{
+    transform: scale(1.05);
+}
+
+.col-4{
+    text-decoration: none;
+    color: #293219;
+    width:200px;
+    height:50px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.col-4 > span{
+    font-size: 18px;
+}
+
+.col-4 > img{
+    width: 40px;
+    object-fit:cover;
+}
+
+
+/* contact-me */
+.control-contact{
+    margin-top: 10px;
+    width: 100%;
+    height:500px;
+    /* background-color:#0000005d; */
+    background-image:linear-gradient(rgba(0,0,0,0.56),rgba(0,0,0,0.56)),url('../images/about-page/descripe-bg.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 50px;
+    overflow: hidden;
+}
+
+.contact-me{
+    width: 100%;
+
+}
+
+.top-cont{
+    margin-bottom: 4rem;
+}
+
+.top-cont > h1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 3em;
+    text-shadow: 2px 2px #000;
+}
+
+.bottom-cont{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leff-bottom{
+    width:400px;
+}
+
+.leff-bottom > a{
+    text-decoration: none;
+    color: #ffff;
+    display: block;
+    line-height: 40px;
+}
+
+.leff-bottom > a > i{
+    color:#FFA300;
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.leff-bottom .name{
+    font-size: 1.5em;
+    color:#FFA300;
+    text-transform: uppercase;
+    text-shadow: 0 1px #000;
+}
+
+.icon-contact-me{
+    display: flex;
+    gap: 20px;
+}
+
+.icon-contact-me > a > i{
+    color: #FFA300;
+    font-size: 22px;
+    border-radius: 50%;
+    padding:7px;
+    border: 1px solid #FFA300;
+}
+
+.icon-contact-me > a > :hover{
+    transform: scale(1.1);
+}
+
+.right-bottom{
+    width: 500px;
+    height: 400px;
+}
+
+.right-bottom > form{
+    width: 100%;
+    height: 100%;
+}
+

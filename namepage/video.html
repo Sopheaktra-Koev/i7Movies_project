@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>វិដេអូ</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/video.css">
+    <!-- cdnjs's link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- aos's CSS -->
+    <link rel="stylesheet" href="../vender/Aos-animate/aos.css">
+    <!-- plyr's css -->
+    <link rel="stylesheet" href="../vender/plyr/plyr.css">
+
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <div class="top-header">
+                <a href="../index.html" class="logo" data-aos="fade-down"
+                data-aos-duration="1000">
+                    <img src="../images/logo.png" alt="I7Movies_logo">
+                </a>
+                <div class="right-logo">
+                    <div class="found-block">
+                        <form class="frm-search" action="">
+                            <input type="search" class="search-box" placeholder="ស្វែងរកឥឡូវ" name="search">
+                            <button type="submit" class="btn-search">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <ul class="user">
+                        <li>
+                            <a href="login.html">
+                                <i class="fa-solid fa-user login" style="color: #FFA300;"></i>&nbsp; LOGIN
+                            </a>
+                        </li>
+                        <li>
+                            <p style="color:#FFA300;">|</p>
+                        </li>
+                        <li>
+                            <a href="signup.html">SIGN UP</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- navigation bar -->
+    <div class="navigation-bar">
+        <div class="container">
+            <nav class="navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link hvr-underline-reveal active">
+                            <i class="fa-solid fa-house"></i> &nbsp;ទំព័រដើម
+                        </a>
+                    </li>
+                    <li class="nav-item drop-bar">
+                        <a href="#" class="nav-link hvr-underline-reveal">រឿងភាគ &nbsp;
+                            <i class="fa-solid fa-sort-down"></i>
+                        </a>
+                        <div class="dropdown1">
+                            <ul>
+                                <li><a href="khmer_drama.html">ភាគខ្មែរ</a></li>
+                                <li><a href="korea_drrama.html">ភាគកូរ៉េ</a></li>
+                                <li><a href="chines_drama.html">ភាគចិន</a></li>
+                                <li><a href="thai_drama.html">ភាគថៃ</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="comingsoon.html" class="nav-link hvr-underline-reveal">ឆាប់ៗនេះ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="ghost-page.html" class="nav-link hvr-underline-reveal">រឿងខ្មោច</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="europe.html" class="nav-link hvr-underline-reveal">អឹរ៉ុប</a>
+                    </li>
+                    <li class="nav-item drop-bar">
+                        <a href="#" class="nav-link hvr-underline-reveal">ប្រទេស &nbsp;
+                            <i class="fa-solid fa-sort-down"></i>
+                        </a>
+                        <div class="dropdown1">
+                            <ul>
+                                <li><a href="khmer.html">ខ្មែរ</a></li>
+                                <li><a href="korea.html">កូរ៉េ</a></li>
+                                <li><a href="chines.html">ចិន</a></li>
+                                <li><a href="thai.html">ថៃ</a></li>
+                                <li><a href="indonesia.html">ឥណ្ឌូនេស៊ុី</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about-me.html" class="nav-link hvr-underline-reveal ">
+                            <i class="fa-solid fa-user"></i>&nbsp;អំពីខ្ញុំ
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="link-contact">
+                    <a href="#" title="Search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                    <a href="contact.html" title="contact us">
+                        <i class="fa-regular fa-address-card"></i>
+                    </a>
+                    <div class="notification">
+                        <i onclick="myFunction()" class="fa-solid fa-bell text-warning fs-5 dropbtn"></i>
+                        <div id="myDropdown" class="dropdown-content">
+                            <h1 class="notif-text">Notifications</h1>
+                            <div class="for-notif">
+                                <h1><i class="fa-regular fa-face-sad-tear"></i></h1>
+                                <h1>Not Found</h1><br><br><br>
+                                <p>You don't account yet, <br>
+                                    Please create one</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <main>
+        <section class="control-video">
+            <div class="container">
+                <div class="wrapper-video">
+                    <div id="youtube" data-plyr-provider="youtube" data-plyr-embed-id="qEVUtrk8_B4"></div>
+                </div>
+                <div class="title-video-frame" data-aos="fade-up"
+                data-aos-duration="1000">
+                    <div class="left-under-video">
+                        <div class="profile-logo">
+                            <img src="../images/logo.png" alt="">
+                        </div>
+                        <p>JOHN WICK <span class="yellow">CHAPTER 4</span></p>
+                    </div>
+                    <div class="right-under-video">
+                        <p>
+                            <span class="after-you">Love</span>
+                            <i class="fa-regular fa-heart"></i>
+                        </p>
+                        <p>
+                            <span class="after-you">Comment</span>
+                            <i class="fa-regular fa-comment"></i>
+                        </p>
+                        <p>
+                            <span class="after-you">Sheare</span>
+                            <i class="fa-solid fa-share-from-square"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <details open>
+                    <summary class="episode" data-aos="fade-right"
+                    data-aos-duration="1000">Episodes</summary>
+                    <div class="sub-movies" data-aos="zoom-in-up"
+                    data-aos-duration="1000">
+                        <div class="chapter">
+                            <a href="video.html" class="control-block">
+                                <div class="image-video">
+                                    <img src="../images/video-page/img1.jpg" alt="">
+                                </div>
+                                <h3>JONN WICK - CHAPTER <span class="yellow">[ 1 ] - 2014</span></h3>
+                            </a>
+                            <a href="video.html">
+                                <span class="time">1 : 41 : 12</span> <i class="fa-solid fa-play"></i>
+                            </a>
+                        </div>
+                        <div class="chapter">
+                            <a href="video.html" class="control-block">
+                                <div class="image-video">
+                                    <img src="../images/video-page/img1.jpg" alt="">
+                                </div>
+                                <h3>JONN WICK - CHAPTER <span class="yellow">[ 2 ] - 2017</span></h3>
+                            </a>
+                            <a href="video.html">
+                                <span class="time">2 : 02 : 22</span> <i class="fa-solid fa-play"></i>
+                            </a>
+                        </div>
+                        <div class="chapter">
+                            <a href="video.html" class="control-block">
+                                <div class="image-video">
+                                    <img src="../images/video-page/img1.jpg" alt="">
+                                </div>
+                                <h3>JONN WICK - CHAPTER <span class="yellow">[ 3 ] - 2019</span></h3>
+                            </a>
+                            <a href="video.html">
+                                <span class="time">2 : 11 : 15</span> <i class="fa-solid fa-play"></i>
+                            </a>
+                        </div>
+                        <div class="chapter">
+                            <a href="video.html" class="control-block">
+                                <div class="image-video">
+                                    <img src="../images/video-page/img1.jpg" alt="">
+                                </div>
+                                <h3>JONN WICK - CHAPTER <span class="yellow">[ 4 ] - 2023</span></h3>
+                            </a>
+                            <a href="video.html">
+                                <span class="time">2 : 41 : 20</span> <i class="fa-solid fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                </details>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="movie-recoment">
+                    <div class="recoment">
+                        <div class="recoment1"  data-aos="fade-up"
+                        data-aos-duration="1000">
+                            <div class="rec-img">
+                                <img src="../images/korea-img/collection-img/img1.png" alt="">
+                            </div>
+                            <div class="rec-title">
+                                <h3>QUEEN OF TEARS</h3>
+                                <div class="about-mv-rec">
+                                    <p>កូរ៉េ</p>
+                                    <p>2024</p>
+                                    <p>15+</p>
+                                    <p>ភាគ</p>
+                                </div>
+
+                                <div class="rate-rec">
+                                    <p class="time-rec">
+                                        Upcoming.....
+                                    </p>
+                                </div>
+                                <div class="view1">
+                                    <p>500k views</p>
+                                    <i class="fa-regular fa-heart type"></i>
+                                    <i class="fa-solid fa-comment"></i>
+                                </div>
+                                <div class="rec-btn">
+                                    <a href="video.html">
+                                        មើ់លឥឡូវ​ <i class="fa-regular fa-circle-play"></i>
+                                    </a>
+                                    <a href="../index.html">
+                                        មើសផ្សេងទៀត <i class="fa-solid fa-circle-info"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recoment2"  data-aos="fade-up"
+                        data-aos-duration="1200">
+                            <div class="rec-img">
+                                <img src="../images/khmer-drama/wife wieght 90kg.jpg" alt="">
+                            </div>
+                            <div class="rec-title">
+                                <h3>ប្រពន្ធ៩០គីឡូ</h3>
+                                <div class="about-mv-rec">
+                                    <p>ខ្មែរ</p>
+                                    <p>2023</p>
+                                    <p>15+</p>
+                                    <p>ភាគ</p>
+                                </div>
+
+                                <div class="rate-rec">
+                                    <p class="time-rec">
+                                        <i class="fa-regular fa-clock"></i> 1 hr 45 m
+                                    </p>
+                                </div>
+                                <div class="view1">
+                                    <p>600k views</p>
+                                    <i class="fa-regular fa-heart type"></i>
+                                    <i class="fa-solid fa-comment"></i>
+                                </div>
+                                <div class="rec-btn">
+                                    <a href="video.html">
+                                        មើ់លឥឡូវ​ <i class="fa-regular fa-circle-play"></i>
+                                    </a>
+                                    <a href="../index.html">
+                                        មើសផ្សេងទៀត <i class="fa-solid fa-circle-info"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recoment">
+                        <div class="recoment1"  data-aos="fade-up"
+                        data-aos-duration="1000"> 
+                            <div class="rec-img">
+                                <img src="../images/chines-drama/col-4/img5.png" alt="">
+                            </div>
+                            <div class="rec-title">
+                                <h3>ប្រយុទ្ធទៅកាន់មេឃា</h3>
+                                <div class="about-mv-rec">
+                                    <p>ចិន</p>
+                                    <p>2019</p>
+                                    <p>15+</p>
+                                    <p>ភាគ​</p>
+                                </div>
+
+                                <div class="rate-rec">
+                                    <p class="time-rec">
+                                        1-32 Episode
+                                    </p>
+                                </div>
+                                <div class="view1">
+                                    <p>500k views</p>
+                                    <i class="fa-regular fa-heart type"></i>
+                                    <i class="fa-solid fa-comment"></i>
+                                </div>
+                                <div class="rec-btn">
+                                    <a href="video.html">
+                                        មើ់លឥឡូវ​ <i class="fa-regular fa-circle-play"></i>
+                                    </a>
+                                    <a href="../index.html">
+                                        មើសផ្សេងទៀត <i class="fa-solid fa-circle-info"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recoment2"  data-aos="fade-up"
+                        data-aos-duration="1200">
+                            <div class="rec-img">
+                                <img src="../images/khmer-drama/derm chek chvea.jpg" alt="">
+                            </div>
+                            <div class="rec-title">
+                                <h3>ដើមចេកជ្វា</h3>
+                                <div class="about-mv-rec">
+                                    <p>ខ្មែរ</p>
+                                    <p>2023</p>
+                                    <p>14+</p>
+                                    <p>ខ្មោច</p>
+                                </div>
+
+                                <div class="rate-rec">
+                                    <p class="time-rec">
+                                        1-32 Episode
+                                    </p>
+                                </div>
+                                <div class="view1">
+                                    <p>600k views</p>
+                                    <i class="fa-regular fa-heart type"></i>
+                                    <i class="fa-solid fa-comment"></i>
+                                </div>
+                                <div class="rec-btn">
+                                    <a href="video.html">
+                                        មើ់លឥឡូវ​ <i class="fa-regular fa-circle-play"></i>
+                                    </a>
+                                    <a href="../index.html">
+                                        មើសផ្សេងទៀត <i class="fa-solid fa-circle-info"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-recoment">
+                    <div class="recoment">
+                        <div class="recoment1" data-aos="fade-up"
+                    data-aos-duration="1000">
+                            <div class="rec-img">
+                                <img src="../images/recoment/train-to-busan1.jpg" alt="">
+                            </div>
+                            <div class="rec-title">
+                                <h3>រថភ្លើងទៅប៊ូសាន - TRAIN TO BUSAN</h3>
+                                <div class="about-mv-rec">
+                                    <p>កូរ៉េ</p>
+                                    <p>2016</p>
+                                    <p>15+</p>
+                                    <p>Zombie</p>
+                                </div>
+
+                                <div class="rate-rec">
+                                    <p class="time-rec">
+                                        <i class="fa-regular fa-clock"></i> 1 hr 48 m
+                                    </p>
+                                </div>
+                                <div class="view1">
+                                    <p>500k views</p>
+                                    <i class="fa-regular fa-heart type"></i>
+                                    <i class="fa-solid fa-comment"></i>
+                                </div>
+                                <div class="rec-btn">
+                                    <a href="video.html">
+                                        មើ់លឥឡូវ​ <i class="fa-regular fa-circle-play"></i>
+                                    </a>
+                                    <a href="../index.html">
+                                        មើសផ្សេងទៀត <i class="fa-solid fa-circle-info"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recoment2"  data-aos="fade-up"
+                        data-aos-duration="1200">
+                            <div class="rec-img">
+                                <img src="../images/recoment/beekeeper.jpg" alt="">
+                            </div>
+                            <div class="rec-title">
+                                <h3>BEEKEEPER</h3>
+                                <div class="about-mv-rec">
+                                    <p>អាមេរិច</p>
+                                    <p>2024</p>
+                                    <p>18+</p>
+                                    <p>រន្ទត់</p>
+                                </div>
+
+                                <div class="rate-rec">
+                                    <p class="time-rec">
+                                        <i class="fa-regular fa-clock"></i> 1 hr 45 m
+                                    </p>
+                                </div>
+                                <div class="view1">
+                                    <p>600k views</p>
+                                    <i class="fa-regular fa-heart type"></i>
+                                    <i class="fa-solid fa-comment"></i>
+                                </div>
+                                <div class="rec-btn">
+                                    <a href="video.html">
+                                        មើ់លឥឡូវ​ <i class="fa-regular fa-circle-play"></i>
+                                    </a>
+                                    <a href="../index.html">
+                                        មើសផ្សេងទៀត <i class="fa-solid fa-circle-info"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recoment">
+                        <div class="recoment1"  data-aos="fade-up"
+                        data-aos-duration="1000">
+                            <div class="rec-img">
+                                <img src="../images/recoment/the nun.jpg" alt="">
+                            </div>
+                            <div class="rec-title">
+                                <h3>THE NUN 2</h3>
+                                <div class="about-mv-rec">
+                                    <p>អាមេរិច</p>
+                                    <p>2023</p>
+                                    <p>15+</p>
+                                    <p>ខ្មោច​</p>
+                                </div>
+
+                                <div class="rate-rec">
+                                    <p class="time-rec">
+                                        <i class="fa-regular fa-clock"></i> 1 hr 50 m
+                                    </p>
+                                </div>
+                                <div class="view1">
+                                    <p>500k views</p>
+                                    <i class="fa-regular fa-heart type"></i>
+                                    <i class="fa-solid fa-comment"></i>
+                                </div>
+                                <div class="rec-btn">
+                                    <a href="video.html">
+                                        មើ់លឥឡូវ​ <i class="fa-regular fa-circle-play"></i>
+                                    </a>
+                                    <a href="../index.html">
+                                        មើសផ្សេងទៀត <i class="fa-solid fa-circle-info"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recoment2"  data-aos="fade-up"
+                        data-aos-duration="1200">
+                            <div class="rec-img">
+                                <img src="../images/recoment/born to fly.jpg" alt="">
+                            </div>
+                            <div class="rec-title">
+                                <h3>BORN TO FLY</h3>
+                                <div class="about-mv-rec">
+                                    <p>ចិន</p>
+                                    <p>2023</p>
+                                    <p>14+</p>
+                                    <p>យោធា</p>
+                                </div>
+
+                                <div class="rate-rec">
+                                    <p class="time-rec">
+                                        <i class="fa-regular fa-clock"></i> 2 hr 8 m
+                                    </p>
+                                </div>
+                                <div class="view1">
+                                    <p>600k views</p>
+                                    <i class="fa-regular fa-heart type"></i>
+                                    <i class="fa-solid fa-comment"></i>
+                                </div>
+                                <div class="rec-btn">
+                                    <a href="video.html">
+                                        មើ់លឥឡូវ​ <i class="fa-regular fa-circle-play"></i>
+                                    </a>
+                                    <a href="../index.html">
+                                        មើសផ្សេងទៀត <i class="fa-solid fa-circle-info"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <br><br><br>
+
+    <!-- end page -->
+    <div class="end-page">
+        <div class="container">
+            <div class="control-end-page" data-aos="fade-up" data-aos-duration="1000">
+                <div class="logo-end">
+                    <a href="../index.html">
+                        <img src="../images/logo.png" alt="">
+                    </a>
+                    <p>
+                        <span class="logo-text">I7Movies</span> ជាគេហទំព័រដែលផ្ដល់ជូននូវខ្សែភាពយន្ត
+                        ពេញនិយមជាច្រើន សម្រាប់ទស្សនា២៤ម៉ោងដោយឥតគិតថ្លៃ។ 
+                    </p>
+                    <div class="subscribe">
+                        <p>ចុច <span class="logo-text">Subscribe</span> ប៊ូតុងសម្រាប់ទទួលរឿងថ្មីៗពី &nbsp;<span
+                                class="logo-text">I7Movies</span></p>
+                    </div>
+                    <div class="icon-sub">
+                        <i class="fa-brands fa-youtube"></i>YouTube
+                        <i class="fa-brands fa-facebook"></i>Facebook Page
+                        <i class="fa-brands fa-square-instagram"></i> Instagram
+                    </div>
+                    <br>
+                    <button type="button" class="btn-sub">Subscribe</button>
+                </div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000">
+                    <h2>More</h2>
+                    <br><br>
+                    <div class="link-movie">
+                        <li><a href="about-me.html">អំពីយើង</a></li>
+                        <li><a href="contact.html">ទំនាក់ទំនង</a></li>
+                        <li><a href="khmer_drama.html">រឿងភាគល្បីៗ</a></li>
+                        <li><a href="ghost-page.html">រឿងខ្មោច</a></li>
+                        <li><a href="comingsoon.html">ឆាប់ៗនេះ</a></li>
+                        <li><a href="europe.html">រឿងអ៊ឺរ៉ុបល្បីៗ</a></li>
+
+                    </div>
+                </div>
+                <div class="contact" data-aos="fade-up" data-aos-duration="1000">
+                    <h2>Follwing Our Social Medai</h2><br><br>
+                    <div class="icon-sub1">
+                        <p>
+                            <i class="fa-brands fa-youtube"></i> &nbsp;You Tube
+                        </p>
+                        <p>
+                            <i class="fa-brands fa-facebook"></i> &nbsp;Facebook
+                        </p>
+                        <p>
+                            <i class="fa-brands fa-square-instagram"></i> &nbsp;Instagram
+                        </p>
+                        <p>
+                            <i class="fa-brands fa-tiktok"></i> &nbsp;Tik Tok
+                        </p>
+                        <p>
+                            <i class="fa-brands fa-telegram"></i> &nbsp;Telegram
+                        </p>
+                    </div>
+                    <div class="download">
+                        <button type="button" class="btn-download">
+                            <img src="../images/download/play-store.png" alt="">
+                        </button>
+                        <button type="button" class="btn-download">
+                            <img src="../images/download/app-store.png" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="svg-img">
+            <img src="../images/wave (1).svg" alt="">
+            <div class="creater">
+                <span class="be"><i class="fa-regular fa-copyright"></i> រក្សាសិទ្ធិគ្រប់យ៉ាងដោយ I7Movies || BY :
+                    SOPHEAKTRA KOEV</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="../vender/plyr/plyr.js"></script>
+    <script>
+        const youtube = new Plyr('#youtube');
+    </script>
+
+    <!--aos's script  -->
+    <script src="../vender/Aos-animate/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+    <!-- script manual -->
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
